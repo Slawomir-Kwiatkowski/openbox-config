@@ -5,7 +5,6 @@
   <li>Meta key + Left key --- switch to desktop on the left</li>
   <li>Meta key + Right key --- switch to desktop on the right</li>
   <li>Meta key + Shift key + digit (default: 1 to 4) --- move app to desktop</li>
-  <li>Meta key + Shift key + digit (default: 1 to 4) --- move app to desktop</li>
   <li>Meta key + Shift + Left key --- move app to desktop on the left</li>
   <li>Meta key + Shift + Right key --- move app to desktop on the right</li>
   <li>Meta key + Space key --- run Runner app</li>
