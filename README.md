@@ -7,7 +7,7 @@
   <li>Meta key + Shift key + digit (default: 1 to 4) --- move app to desktop</li>
   <li>Meta key + Shift + Left key --- move app to desktop on the left</li>
   <li>Meta key + Shift + Right key --- move app to desktop on the right</li>
-  <li>Meta key + Space key --- run Runner app</li>
+  <li>Meta key + Space bar --- run Runner app</li>
   <li>Meta key + Esc key --- close system</li>
   <li>Meta key + q key --- close app</li>
   <li>Meta key + i key --- run web browser (Brave broser) on WWW desktop</li>
