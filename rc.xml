@@ -227,8 +227,20 @@
         <wrap>no</wrap>
       </action>
     </keybind>
+    <keybind key="W-h">
+      <action name="GoToDesktop">
+        <to>left</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
     <!-- MOVE TO RIGHT DESKTOP SHORTCUT -->
     <keybind key="W-Right">
+      <action name="GoToDesktop">
+        <to>right</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <keybind key="W-l">
       <action name="GoToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -241,8 +253,20 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <!-- SEND TO LEFT DESKTOP SHORTCUT -->
+    <keybind key="W-S-h">
+      <action name="SendToDesktop">
+        <to>left</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <!-- SEND TO RIGHT DESKTOP SHORTCUT -->
     <keybind key="W-S-Right">
+      <action name="SendToDesktop">
+        <to>right</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <keybind key="W-S-l">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -376,10 +400,16 @@
         <command>qterminal</command>
       </action>
     </keybind>
-    <!-- EXECUTE SUBLIME TEXT -->
+    <!-- EXECUTE NEOVIM -->
+    <keybind key="W-n">
+      <action name="Execute">
+        <command>qterminal -e nvim</command>
+      </action>
+    </keybind>
+    <!-- EXECUTE SCRAPBOOK -->
     <keybind key="W-s">
       <action name="Execute">
-        <command>subl</command>
+        <command>qterminal -e nvim ~/.scrapbook.txt</command>
       </action>
     </keybind>
   </keyboard>
