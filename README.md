@@ -16,9 +16,9 @@
   <li>Super + Spacebar --- run Runner app (app finder)</li>
   <li>Super + Esc --- close system</li>
   <li>Super + q --- close app</li>
-  <li>Super + i --- run web browser (Brave broser) on WWW desktop & focus</li>
-  <li>Super + p --- run file manager (Pcmanfm-qt) on TOOLS desktop & focus</li>
-  <li>Super + f --- run file manager (LF) on TOOLS desktop & focus</li>
+  <li>Super + i --- run web browser (Brave broser) on WWW desktop</li>
+  <li>Super + p --- run file manager (Pcmanfm-qt) on TOOLS desktop</li>
+  <li>Super + f --- run file manager (LF) on TOOLS desktop</li>
   <li>Super + c --- run Visual Studio Code on DEV desktop</li>
   <li>Super + n --- run nvim</li>
   <li>Super + s --- open scrapbook file with nvim</li>
@@ -31,11 +31,11 @@
   <li>Super + F11 (mute sound) --- mute sound</li>
   <li>Print --- make screenshot</li>  
 </ul>
-<p>No tiling of course, but qterminal subterminals.</p>
+<p>No tiling of course but qterminal subterminals.</p>
 <ul>
-  <li>Alt + v --- tile vartically</li>
-  <li>Alt + b --- tile horizontally</li>
-  <li>Alt + h, j, k, l --- move across tiles (like in vim)</li>
+  <li>Alt + v --- tile terminal vartically</li>
+  <li>Alt + b --- tile terminal horizontally</li>
+  <li>Alt + h, j, k, l --- move across terminal tiles (like in vim)</li>
   <li>Alt + q --- close tile (Super + q to close all tiles)</li>
 </ul>
 
