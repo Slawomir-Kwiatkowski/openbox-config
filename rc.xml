@@ -29,6 +29,21 @@
       <desktop>4</desktop>
       <focus>yes</focus>
     </application>
+    <!-- MPV VIDEO PLAYER CONFIG -->
+    <application class="mpv">
+      <desktop>5</desktop>
+      <focus>yes</focus>
+    </application>
+    <!-- LF FILE MANAGER CONFIG -->
+    <application name="lf">
+      <desktop>4</desktop>
+      <focus>yes</focus>
+    </application>
+    <!-- DROPDOWN TERMINAL CONFIG -->
+    <application name="dropdown">
+      <desktop>all</desktop>
+      <focus>yes</focus>
+    </application>
   </applications>
   <!-- RESISTANCE SECTION -->
   <resistance>
@@ -153,7 +168,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>5</number>
     <firstdesk>1</firstdesk>
     <names>
       <!-- set names up here if you want to, like this: -->
@@ -161,6 +176,7 @@
       <name>WWW</name>
       <name>SYS</name>
       <name>TOOLS</name>
+      <name>VIDEO</name>
     </names>
     <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -220,6 +236,12 @@
     <keybind key="W-q">
       <action name="Close"/>
     </keybind>
+    <!-- RELOAD OPENBOX SETTINGS -->
+    <keybind key="W-C-R">
+      <action name="Execute">
+        <command>openbox --reconfigure</command>
+      </action>
+    </keybind>
     <!-- MOVE TO LEFT DESKTOP SHORTCUT -->
     <keybind key="W-Left">
       <action name="GoToDesktop">
@@ -278,8 +300,18 @@
         <to>1</to>
       </action>
     </keybind>
+    <keybind key="W-KP_1">
+      <action name="GoToDesktop">
+        <to>1</to>
+      </action>
+    </keybind>
     <!-- GO TO DESKTOP 2 SHORTCUT -->
     <keybind key="W-2">
+      <action name="GoToDesktop">
+        <to>2</to>
+      </action>
+    </keybind>
+    <keybind key="W-KP_2">
       <action name="GoToDesktop">
         <to>2</to>
       </action>
@@ -290,12 +322,34 @@
         <to>3</to>
       </action>
     </keybind>
+    <keybind key="W-KP_3">
+      <action name="GoToDesktop">
+        <to>3</to>
+      </action>
+    </keybind>
     <!-- GO TO DESKTOP 4 SHORTCUT -->
     <keybind key="W-4">
       <action name="GoToDesktop">
         <to>4</to>
       </action>
     </keybind>
+    <keybind key="W-KP_4">
+      <action name="GoToDesktop">
+        <to>4</to>
+      </action>
+    </keybind>
+    <!-- GO TO DESKTOP 5 SHORTCUT -->
+    <keybind key="W-5">
+      <action name="GoToDesktop">
+        <to>5</to>
+      </action>
+    </keybind>
+    <keybind key="W-KP_5">
+      <action name="GoToDesktop">
+        <to>5</to>
+      </action>
+    </keybind>
+
     <!-- UNUSED TOGGLE SHOW DESKTOP SHORTCUT
     <keybind key="W-D">
       <action name="ToggleShowDesktop"/>
@@ -333,8 +387,18 @@
         <to>1</to>
       </action>
     </keybind>
+    <keybind key="W-S-KP_1">
+      <action name="SendToDesktop">
+        <to>1</to>
+      </action>
+    </keybind>
     <!-- SEND TO DESKTOP 2 SHORTCUT -->
     <keybind key="W-S-2">
+      <action name="SendToDesktop">
+        <to>2</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-KP_2">
       <action name="SendToDesktop">
         <to>2</to>
       </action>
@@ -345,12 +409,34 @@
         <to>3</to>
       </action>
     </keybind>
+    <keybind key="W-S-KP_3">
+      <action name="SendToDesktop">
+        <to>3</to>
+      </action>
+    </keybind>
     <!-- SEND TO DESKTOP 4 SHORTCUT -->
     <keybind key="W-S-4">
       <action name="SendToDesktop">
         <to>4</to>
       </action>
     </keybind>
+    <keybind key="W-S-KP_4">
+      <action name="SendToDesktop">
+        <to>4</to>
+      </action>
+    </keybind>
+    <!-- SEND TO DESKTOP 5 SHORTCUT -->
+    <keybind key="W-S-5">
+      <action name="SendToDesktop">
+        <to>5</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-KP_5">
+      <action name="SendToDesktop">
+        <to>5</to>
+      </action>
+    </keybind>
+
     <!-- **** APPS KEYBINDINGS **** -->
     <!-- EXECUTE SYSTEM EXIT -->
     <keybind key="W-Escape">
@@ -382,8 +468,8 @@
         <command>brave</command>
       </action>
     </keybind>
-    <!-- EXECUTE FILE MANAGER -->
-    <keybind key="W-f">
+    <!-- EXECUTE PCMANFM FILE MANAGER -->
+    <keybind key="W-p">
       <action name="Execute">
         <command>pcmanfm-qt</command>
       </action>
@@ -409,7 +495,19 @@
     <!-- EXECUTE SCRAPBOOK -->
     <keybind key="W-s">
       <action name="Execute">
-        <command>qterminal -e nvim ~/.scrapbook.txt</command>
+        <command>qterminal -d -e nvim ~/.scrapbook.txt</command>
+      </action>
+    </keybind>
+    <!-- EXECUTE LF FILE MANAGER -->
+    <keybind key="W-f">
+      <action name="Execute">
+        <command>qterminal -e -name "lf" lf</command>
+      </action>
+    </keybind>
+    <!-- EXECUTE DROPDOWN TERMINAL -->
+    <keybind key="W-d">
+      <action name="Execute">
+        <command>qterminal -d -name "dropdown"</command>
       </action>
     </keybind>
   </keyboard>
