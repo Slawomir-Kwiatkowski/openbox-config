@@ -1,5 +1,4 @@
 <img src="screen.jpg">
-<small>Elarun wallpaper, Author: Nuno Pinheiro</small>
 <h1>My openbox & qterminal config</h1>
 <p>Applications run maximized by default, without window decorations.</p>
 <ul>
@@ -40,4 +39,5 @@
   <li>Alt + h, j, k, l --- move across terminal tiles (like in vim)</li>
   <li>Alt + q --- close tile (Super + q to close all tiles)</li>
 </ul>
+<p><small>Elarun wallpaper, Author: Nuno Pinheiro</small></p>
 
