@@ -1,3 +1,4 @@
+<img src="screen.jpg">
 <h2>My openbox & qterminal config</h2>
 <p>Applications run maximized by default, without window decorations.</p>
 <ul>
