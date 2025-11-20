@@ -39,5 +39,5 @@
   <li>Alt + h, j, k, l --- move across terminal tiles (like in vim)</li>
   <li>Alt + q --- close tile (Super + q to close all tiles)</li>
 </ul>
-<p><small>Elarun wallpaper, Author: Nuno Pinheiro</small></p>
+<p style="margin-bottom:3cm;"><small>Elarun wallpaper, Author: Nuno Pinheiro</small></p>
 
