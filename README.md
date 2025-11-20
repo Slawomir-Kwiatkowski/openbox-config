@@ -1,5 +1,6 @@
 <img src="screen.jpg">
-<h2>My openbox & qterminal config</h2>
+<small>Elarun wallpaper, Author: Nuno Pinheiro</small>
+<h1>My openbox & qterminal config</h1>
 <p>Applications run maximized by default, without window decorations.</p>
 <ul>
   <li>Super + digit (1 to 5) --- switch to chosen desktop</li>
