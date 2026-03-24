@@ -1,8 +1,7 @@
 <h4><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ047AkZUiPRcm6dDr_tftDlfIQWkzkwaz4H01Yh7QJ2B3lNpB8oRzEVJU22YnnQawr67C9SIS6WVdkG_6_7dOJGVxBSub73oI3juV_aRZD1afGCZ5voTcLJMIwz67MfWU3q8QCzbbki9pxzYLqTKmagGc8oyqtoKVD2Jruq9O-u2A7kfnhbowCNs97cFt/s1920/screen-24.03.2026.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1080" data-original-width="1920" height="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ047AkZUiPRcm6dDr_tftDlfIQWkzkwaz4H01Yh7QJ2B3lNpB8oRzEVJU22YnnQawr67C9SIS6WVdkG_6_7dOJGVxBSub73oI3juV_aRZD1afGCZ5voTcLJMIwz67MfWU3q8QCzbbki9pxzYLqTKmagGc8oyqtoKVD2Jruq9O-u2A7kfnhbowCNs97cFt/w640-h360/screen-24.03.2026.jpg" width="640" /></a></div><i>Content description:<br />
   In this post I'll describe my LXQT configuration <br />
 </i></h4>
-
-<h5>Configuration files are available on <a href="https://github.com/Slawomir-Kwiatkowski/openbox-config" target="_blank">my Github</a></h5><br />
+<br />
 
 <p>
   Applications run maximized by default, without window decorations (<span style="color: red;">Super+q </span>to close app).</p>
