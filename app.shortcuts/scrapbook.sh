@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Get a list of existing LF windows
+# Get a list of existing scrapbook windows
 windows=$(wmctrl -lx | grep -i "scrapbook" | awk '{print $1}')
 
-# Check if any LF window exists
+# Check if any window exists
 if [ -n "$windows" ]; then
-    # Focus the existing LF window
+    # Focus the existing window
     wmctrl -s 2
     wmctrl -ia "$windows"
     echo "Window found and focused."
