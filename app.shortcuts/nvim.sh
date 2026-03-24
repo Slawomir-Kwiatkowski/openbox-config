@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Get a list of existing LF windows
+# Get a list of existing windows
 nvim_windows=$(wmctrl -lx | grep -i "nvim.qterminal" | awk '{print $1}')
 
-# Check if any LF window exists
+# Check if any window exists
 if [ -n "$nvim_windows" ]; then
-    # Focus the existing LF window
+    # Focus the existing window
     wmctrl -s 0
     wmctrl -ia "$nvim_windows"
     echo "Window found and focused."
