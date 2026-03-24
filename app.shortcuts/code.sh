@@ -1,7 +1,7 @@
 #!/bin/bash
 
-APP_NAME="code-oss"   # e.g., "firefox"
-EXECUTABLE="code-oss"      # e.g., "firefox"
+APP_NAME="code-oss"  
+EXECUTABLE="code-oss"     
 
 # Check if app is running
 PID=$(pgrep -x "$APP_NAME")
