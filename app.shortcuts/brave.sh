@@ -1,7 +1,7 @@
 #!/bin/bash
 
-APP_NAME="brave"   # e.g., "firefox"
-EXECUTABLE="brave"      # e.g., "firefox"
+APP_NAME="brave"  
+EXECUTABLE="brave"     
 
 # Check if app is running
 PID=$(pgrep -x "$APP_NAME")
