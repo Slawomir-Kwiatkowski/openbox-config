@@ -1,0 +1,1 @@
+Copy app.shortcuts to your .config 
